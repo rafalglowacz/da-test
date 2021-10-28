@@ -1,0 +1,19 @@
+version: "1.0"
+
+detect_relations: true
+
+User:
+  comment: "This asset contains information about registered users"
+  columns:
+    username: string
+    password: string
+    contact_id: integer
+
+Contact:
+  comment: "This asset contains information about a user's contact info"
+  columns:
+    first_name: string
+    last_name: string
+    phone: string
+    email: string
+    address: string
