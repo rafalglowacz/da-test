@@ -19,3 +19,12 @@ Contact:
     phone: string
     email: string
     address: string
+    country_id: string
+
+Country:
+  columns:
+    code:
+      type: string(2)
+      primary: true
+    name:
+      type: string(255)
