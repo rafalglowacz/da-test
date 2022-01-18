@@ -1,6 +1,7 @@
 version: "1.0"
 
 detect_relations: true
+directory: assets-alt
 
 User:
   comment: "This asset contains information about registered users"
@@ -11,6 +12,7 @@ User:
     contact_id: integer
 
 Contact:
+  directory: assets-alt2
   comment: "This asset contains information about a user's contact info"
   columns:
     id: integer
