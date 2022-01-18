@@ -21,7 +21,7 @@ Contact:
     address: string
     country_id: string
 
-Country:
+Countries:
   columns:
     code:
       type: string(2)
