@@ -12,7 +12,7 @@ User:
     contact_id: integer
 
 Contact:
-  directory: assets-alt2
+  path: assets-alt2/Contact.csv
   comment: "This asset contains information about a user's contact info"
   columns:
     id: integer
